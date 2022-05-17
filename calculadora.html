@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+
+        <table width="20%" border="5">
+            <tr>
+                <td colspan="5" align="center">
+                    <input name="display" type="text" id="display" size="30"></td>
+            </tr>
+            <tr>
+                <td width="30">
+                    <input name="button" type="button" id="button" value="+"></td>
+                <td width="30">
+                    <input name="button2" type="button" id="button2" value="-"></td>
+                <td width="30">
+                    <input name="button3" type="button" id="button3" value="*"></td>
+                <td width="30">
+                    <input name="button4" type="button" id="button4" value="/"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input name="num7" type="button" id="num7" value="7" onclick="mostrar_n(7)"></td>
+                <td>
+                    <input name="num8" type="button" id="num8" value="8" onclick="mostrar_n(8)"></td>
+                <td>
+                    <input name="num9" type="button" id="num9" value="9" onclick="mostrar_n(9)"></td>
+                <td>
+                    <input name="borrar" type="button" id="borrar" value="c"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input name="num4" type="button" id="num4" value="4" onclick="mostrar_n(4)"></td>
+                <td>
+                    <input name="num5" type="button" id="num5" value="5" onclick="mostrar_n(5)"></td>
+                <td>
+                    <input name="num6" type="button" id="num6" value="6" onclick="mostrar_n(6)"></td>
+                <td>
+                    <input name="PI" type="button" id="3,1416" value="π "></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input name="num1" type="button" id="num1" value="1" onclick="mostrar_n(1)"></td>
+                <td>
+                    <input name="num2" type="button" id="num2" value="2" onclick="mostrar_n(2)"></td>
+                <td>
+                    <input name="num3" type="button" id="num3" value="3" onclick="mostrar_n(3)"></td>
+                <td>
+                    <input name="Raiz_c" type="button" id="Raiz" value="√"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input name="num0" type="button" id="num0" value="0" onclick="mostrar_n(0)"></td>
+                <td>
+                    <input name="punto" type="button" id="punto" value="."></td>
+                <td>
+                    <input name="igual" type="button" id="igual" value="="></td>
+
+                <td>
+                    <input name="PORCENTAJE" type="button" id="PORCENTAJE" value="%"></td>
+                </td>
+            </tr>
+        </table>
+        <script>
+            function mostrar_n(numero) {
+                document.getElementById("display").value = numero;
+            }
+        </script>
+</body>
+
+</html>
