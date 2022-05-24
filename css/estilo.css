@@ -1,0 +1,164 @@
+body{
+   background-image: url(https://www.xtrafondos.com/descargar.php?id=3183&resolucion=2560x1440);
+   
+}
+
+#calculadora{
+    background-color: rgba(255, 255, 255, 0.61);
+    width: 30%;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace  
+    
+}
+table{
+
+    text-align: center;
+    font-size: 50px;
+    width: 40% ;
+    height: 50%;
+}
+input{
+    border-style: 100px;
+    width: 50%;
+    height: 65px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+#button{
+
+    background-color: #754646 ;
+    border-radius: 15px;
+ }
+#button:hover{
+    background-color: #e02f2f;
+}
+#button2{
+
+    background-color:#754646 ;
+    border-radius: 15px;
+}
+#button2:hover{
+    background-color: #e02f2f;
+}
+
+#button3{
+
+    background-color: #754646 ;
+    border-radius: 15px;
+}  
+#button3:hover{
+    background-color: #e02f2f;
+}     
+#button4{
+
+    background-color:#754646 ;
+    border-radius: 15px;
+}
+#button4:hover{
+    background-color: #e02f2f;
+}
+
+#num7{
+    background-color: rgba(179, 55, 55, 0.521) ;
+    border-radius: 15px;
+}
+#num7:hover{
+    background-color: red;
+}
+#num8{
+    background-color: rgba(179, 55, 55, 0.521) ;
+    border-radius: 15px;
+}
+#num8:hover{
+    background-color: red;
+}
+#num9{
+    background-color: rgba(179, 55, 55, 0.521) ;
+    border-radius: 15px;
+}
+#num9:hover{
+    background-color: red;
+}
+#reset_x{
+    background-color: red;
+    border-radius: 15px;
+}
+#reset_x:hover{
+    background-color: red;
+}
+#num4{
+    background-color: rgba(106, 160, 56, 0.562) ;
+    border-radius: 15px;
+}
+#num4:hover{
+    background-color: rgb(117, 243, 0);
+}
+#num5{
+    background-color: rgba(106, 160, 56, 0.562) ;
+    border-radius: 15px;
+}
+#num5:hover{
+    background-color: rgb(117, 243, 0);
+}
+#num6{
+    background-color: rgba(106, 160, 56, 0.562) ;
+    border-radius: 15px;
+}
+#num6:hover{
+    background-color: rgb(117, 243, 0);
+}
+#PI{
+    background-color: #754646;
+    border-radius: 15px;
+}
+#num1{
+    background-color: rgba(29, 92, 185, 0.541) ;
+    border-radius: 15px;
+}
+#num1:hover{
+    background-color: rgb(0, 102, 255);
+}
+#num2{
+    background-color: rgba(29, 92, 185, 0.541) ;
+    border-radius: 15px;
+}
+#num2:hover{
+    background-color: rgb(0, 102, 255);
+}
+#num3{
+    background-color: rgba(29, 92, 185, 0.541) ;
+    border-radius: 15px;
+}
+#num3:hover{
+    background-color: rgb(0, 102, 255);
+}
+#Raiz_c{
+    background-color: #754646;
+    border-radius: 15px;
+}
+#punto{
+    background-color: #754646;
+    border-radius: 15px;
+}
+#punto:hover{
+    background-color: red;
+}
+#num0{
+    background-color: rgba(29, 92, 185, 0.541);
+    border-radius: 15px;
+    
+}#num0:hover{
+    background-color: rgb(0, 102, 255);
+}
+#igual{
+    background-color: #754646;
+    border-radius: 15px;
+}
+#igual:hover{
+    background-color: yellow ;
+}
+#PORCENTAJE{
+    background-color: #754646;
+    border-radius: 15px;
+}
